@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:providerapp/model/product_model.dart';
+import 'package:Kalids/model/product_model.dart';
 import '../utils/color.dart';
 
 class ProductImage extends StatelessWidget {
@@ -21,9 +21,9 @@ class ProductImage extends StatelessWidget {
             children: [
               Container(
                 width: constrain.maxWidth,
-                height: constrain.maxWidth * 0.9,
+                height: constrain.maxWidth * 0.88,
                 decoration: const BoxDecoration(
-                    color: thirdColor, shape: BoxShape.circle),
+                    color: Colors.brown, shape: BoxShape.circle),
               ),
               ClipRRect(
                 borderRadius: BorderRadius.vertical(
@@ -35,7 +35,7 @@ class ProductImage extends StatelessWidget {
                     alignment: AlignmentDirectional.bottomCenter,
                     children: [
                       Positioned(
-                        bottom: -60,
+                        bottom: -56,
                         width: constrain.maxWidth * 0.9,
                         height: constrain.maxWidth * 1.5,
                         child: Image.asset(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:providerapp/model/size_options_model.dart';
+import 'package:Kalids/model/size_options_model.dart';
 import '../utils/color.dart';
 
 class SizeOptionItem extends StatelessWidget {
@@ -22,7 +22,7 @@ class SizeOptionItem extends StatelessWidget {
           height: 65,
           width: 65,
           decoration: BoxDecoration(
-              color: selected ? secondColor : firstColor.withOpacity(0.1),
+              color: selected ? Colors.brown : Colors.brown.withOpacity(0.1),
               shape: BoxShape.circle),
           child: Center(
             child: Image.asset(
